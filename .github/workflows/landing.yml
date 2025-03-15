@@ -25,7 +25,7 @@ jobs:
       - name: Install Nix
         uses: nixbuild/nix-quick-install-action@v29
       - name: Build site
-        run: nix build $(pwd)/nix#pages --print-build-logs
+        run: nix build $(pwd)/nix#landing --print-build-logs
       - name: Adjust permissions
         run: |
           chown -R `id -u`:`id -g` ./result
