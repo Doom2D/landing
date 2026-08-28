@@ -1,113 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" type="image/x-icon" href="https://doom2d.org/favicon.ico">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" type="image/x-icon" href="https://doom2d.org/favicon.ico">
+  <title>Doom2D Forever</title>
 
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open Sans:400,700,400italic,700italic&amp;subset=cyrillic" rel="stylesheet" type="text/css">
 
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-    <title>Doom2D Forever</title>
+  <!-- Custom styles for this template -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+  <style>
+  .bg-header{
+            background-color: black;
+            background-image: url('img/bg.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-size: cover;
+            }
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </style>
+</head>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open Sans:400,700,400italic,700italic&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+<body id="page-top">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top t1ext-uppercase" style="border-bottom:4px #f0a01f solid" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><span style="color:#f0a01f !important">DOOM</span><span style="color:#d5393f !important"> 2D</span> <span style="color:#cccccc !important">FOREVER</span></a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        ${MENU}
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#history">${ABOUT_NAVBAR}</a>
+          </li>
+          <!--<li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#features">Фичи</a>
+          </li>-->
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#download">${DOWNLOAD_NAVBAR}</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#contacts">${COMMUNITY_NAVBAR}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-    <style>
-	.bg-header{
-			background-color:black;
-			background-image:url('img/bg.png');
-			background-repeat: no-repeat;
-			background-size: 100%;
-			background-size: cover;
-			}
+  <!-- Header -->
+  <header class="masthead bg-header text-white text-center">
+    <div class="container">
+      <img class="img-fluid mb-5 d-block mx-auto" src="img/logo350.png" alt="Doom2D Forever">
+      <!--h1 class="text-uppercase mb-0">Doom2D Forever</h1 -->
+      <h2 class="f1ont-weight-light mb-0 t1ext-uppercase" style="display:block;padding:10px;background-color:#1a252f;">${SUMMARY}</h2>
 
-	</style>
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-primary text-uppercase font-weight-bold" href="#download">
+          <i class="fa fa-download mr-2"></i>
+          ${DOWNLOAD_LARGE}
+        </a>
+      </div>
+    </div>
+  </header>
 
-  </head>
+  <!-- About Section -->
+  <section class="mb-0 bg-primary" id="history">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary">${ABOUT_HEADER}</h2>
+      <hr class="dark mb-5">
+      <div class="row">
+        <div class="col ml-auto">
+          <p class="lead">${DESCRIPTION_1}</p>
+          <p class="lead">${DESCRIPTION_2}</p>
+          <p class="lead">${DESCRIPTION_3}</p>
+          <p class="lead">${DESCRIPTION_4}</p>
 
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top t1ext-uppercase" style="border-bottom:4px #f0a01f solid" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><span style="color:#f0a01f !important">Doom</span><span style="color:#d5393f !important">2D</span> <span style="color:#cccccc !important">Forever</span></a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          ${MENU}
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#history">${ABOUT_NAVBAR}</a>
-            </li>
-            <!--<li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#features">Фичи</a>
-            </li>-->
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#download">${DOWNLOAD_NAVBAR}</a>
-            </li>
-			<li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-uppercase" href="#contacts">${COMMUNITY_NAVBAR}</a>
-            </li>
-			          </ul>
+          <p class="lead">${DESCRIPTION_5}</p>
+          <p class="lead">&nbsp;</p>
         </div>
       </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead bg-header text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/logo350.png" alt="Doom 2D forever">
-        <!--h1 class="text-uppercase mb-0">Doom 2D Forever</h1 -->
-         <h2 class="f1ont-weight-light mb-0 t1ext-uppercase" style="display:block;padding:10px;background-color:#1a252f;">${DESCRIPTION_SHORT}</h2>
-
-		 <div class="text-center mt-4">
-          <a class="btn btn-xl btn-primary text-uppercase font-weight-bold" href="#download">
-            <i class="fa fa-download mr-2"></i>
-            ${DOWNLOAD_LARGE}
-          </a>
-        </div>
-      </div>
-    </header>
-
-	<!-- About Section -->
-    <section class="mb-0 bg-primary " id="history">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary">${ABOUT_HEADER}</h2>
-        <hr class="dark mb-5">
-        <div class="row">
-		 <div class="col ml-auto">
-			<p class="lead">${PROGREV1}</p>
-			<p class="lead">${PROGREV2}</p>
-			<p class="lead">${PROGREV3}</p>
-			<p class="lead">${PROGREV4}</p>
-
-			<p class="lead">${PROGREV5}</p>
-			<p class="lead">&nbsp;</p>
-        </div>
-
-        </div>
-       </div>
-
-
+    </div>
 
     <div class="portfolio bg-primary text-white">
-      <div class="container ">
+      <div class="container">
         <!--<h2 class="text-center text-uppercase  mb-0">Скриншоты</h2>
         <hr class="light mb-5">-->
         <div class="row">
@@ -173,38 +165,38 @@
           </div>
         </div>
       </div>
-	  </div>
-    </section>
+    </div>
+  </section>
 
 
+  <section id="download" class="text-secondary">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">${DOWNLOAD_HEADER}</h2>
+      <br/>
+      <hr class="dark mb-5">
+      <div class="row" >
+        <div class="col-lg-8 mx-auto">
 
-    <section id="download" class="text-secondary">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">${DOWNLOAD_HEADER}</h2>
-        <br/>
-        <hr class="dark mb-5 ">
-        <div class="row " >
-          <div class="col-lg-8 mx-auto">
 
-			<h3>Windows XP/7/10/11</h3>
+<h3>Windows XP/7/10/11</h3>
 <ul>
 <li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/doom2df_windows.x86.zip">${DOWNLOAD_WINDOWS}</a></h5></li>
 <!-- <li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/doom2df_win64.x86-64.zip">Doom2D Forever, Windows XP/7/10/11 (RUS/ENG, x64)</a></h5></li> -->
 </ul>
 
-<br>
+<br/>
 <h3>Android 4.0.1+</h3>
 <ul>
 <li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.apk">${DOWNLOAD_ANDROID}</a></h5></li>
 </ul>
 
-<br>
+<br/>
 <h3>macOS 11.0+</h3>
 <ul>
-<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.dmg ">${DOWNLOAD_MACOS}</a></h5></li>
+<li><h5><a href="https://github.com/Doom2D/flake.nix/releases/latest/download/Doom2D-Forever.dmg">${DOWNLOAD_MACOS}</a></h5></li>
 </ul>
 
-<br>
+<br/>
 <h3>Linux</h3>
 <ul>
 <li><h5><a href="https://deadsoftware.ru/files/terminalhash/d2df-linux-amd64.tar.gz">${DOWNLOAD_LINUX_AMD64}</a></h5></li>
@@ -214,201 +206,190 @@
 </ul>
 
 
-<br>
+<br/>
 <h3>${DEVELOPMENT_HEADER}</h3>
 <ul>
 <li><h5><a href="https://github.com/Doom2D/Doom2D-Forever">${DEVELOPMENT_GITHUB}</a></h5></li>
-
-
 </ul>
-<br>
-<br>
 
 
+<br/>
+<br/>
 
 
-          </div>
-        </div>
-      </div>
-    </section>
-
-	 <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <img class="img-fluid mb-5" src="img/portfolio/1.png" alt="">
-			  </div>
-          </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <img class="img-fluid mb-5" src="img/portfolio/2.png" alt="">
+  <!-- Portfolio Modals -->
 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <img class="img-fluid mb-5" src="img/portfolio/3.png" alt="">
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <img class="img-fluid mb-5" src="img/portfolio/4.png" alt="">
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-
-              <img class="img-fluid mb-5" src="img/portfolio/5.png" alt="">
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <img class="img-fluid mb-5" src="img/portfolio/6.png" alt="">
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Footer -->
-    <footer class="footer text-center" id="contacts">
-      <div class="container">
-		  <h1 class="text-center text-uppercase  mb-0">${COMMUNITY_HEADER}</h1>
-        <hr class="light mb-5">
-        <div class="row">
-          <div class="col-md-3">
-			  <h4 class="mb-4">Telegram</h4>
-			  <p class="lead mb-0"><a href="https://t.me/doom2d">t.me/doom2d</a></p>
-			  <p></p>
-            </div>
-          <div class="col-md-3">
-            <h4 class="mb-4">Discord</h4>
-            <p class="lead mb-0"><a href="https://discord.gg/sGpJwMy">discord.gg/sGpJwMy</a></p>
-			<p></p>
-          </div>
-          <div class="col-md-3">
-            <h4 class="mb-4">IRC</h4>
-            <p class="lead mb-0">irc.wenet.ru:6677 #doom2d</p>
-			<p></p>
-          </div>
-		 <div class="col-md-3">
-            <h4 class="mb-4">${FORUM}</h4>
-            <p class="lead mb-0"><a href="/forum">doom2d.org/forum<br></a>
-			<p></p>
-
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>${COPYRIGHT_MESSAGE} <a href="/index/news/index.html">${OLD_SITE}</a></small>
-      </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-1">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
       </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img class="img-fluid mb-5" src="img/portfolio/1.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-2">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img class="img-fluid mb-5" src="img/portfolio/2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-3">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img class="img-fluid mb-5" src="img/portfolio/3.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-4">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img class="img-fluid mb-5" src="img/portfolio/4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-5">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img class="img-fluid mb-5" src="img/portfolio/5.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 6 -->
+  <div class="portfolio-modal mfp-hide portfolio-modal-dismiss" id="portfolio-modal-6">
+    <div class="portfolio-modal-dialog">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <img class="img-fluid mb-5" src="img/portfolio/6.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Footer -->
+  <footer class="footer text-center" id="contacts">
+    <div class="container">
+      <h1 class="text-center text-uppercase  mb-0">${COMMUNITY_HEADER}</h1>
+      <hr class="light mb-5">
+      <div class="row">
+        <div class="col-md-3">
+          <h4 class="mb-4">Telegram</h4>
+          <p class="lead mb-0"><a href="https://t.me/doom2d">t.me/doom2d</a></p>
+          <p></p>
+        </div>
+        <div class="col-md-3">
+          <h4 class="mb-4">Discord</h4>
+          <p class="lead mb-0"><a href="https://discord.gg/sGpJwMy">discord.gg/sGpJwMy</a></p>
+          <p></p>
+        </div>
+        <div class="col-md-3">
+          <h4 class="mb-4">IRC</h4>
+          <p class="lead mb-0">irc.wenet.ru:6677 #doom2d</p>
+          <p></p>
+        </div>
+        <div class="col-md-3">
+          <h4 class="mb-4">${FORUM}</h4>
+          <p class="lead mb-0"><a href="/forum">doom2d.org/forum</a></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <div class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>${COPYRIGHT_MESSAGE} <a href="/index/news/index.html">${OLD_SITE}</a></small>
+    </div>
+  </div>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
 
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFP6XGPB7M"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-	  gtag('config', 'G-MFP6XGPB7M');
-	</script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-  </body>
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFP6XGPB7M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MFP6XGPB7M');
+  </script>
+
+</body>
 
 </html>
